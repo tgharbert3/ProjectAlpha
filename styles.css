@@ -1,0 +1,149 @@
+body {
+    background: midnightblue;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    padding-right: 75px;
+}
+
+.website-logo {
+    display: flex;
+    padding-left: 75px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: black;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: white;
+    margin-bottom: 5px;
+}
+
+.banners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.live-banners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+}
+.video {
+    display: flex;
+    padding: 50px 50px;
+    width: 350px;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.achievements {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.a-text-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.stream-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+.s-link-text { 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.middle {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.special-area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-top: 16px;
+    background: white;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.game {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#header {
+    font-weight: bold;
+    font-size: 18px;
+}
